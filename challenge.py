@@ -1,8 +1,7 @@
 import sys
 
-filename = sys.argv[1]
-input = open(filename, 'r')
-output = open("salida.txt", 'w')
+input = open(sys.argv[1], 'r')
+output = open(sys.argv[2], 'w')
 total_cases = int(input.readline())
 case = 1
 

@@ -1,6 +1,6 @@
-main(Filename) :-
-    open(Filename, read, Input),
-    open("salida.txt", write, Output),
+main(F1, F2) :-
+    open(F1, read, Input),
+    open(F2, write, Output),
     read_number(Input, N),
     process_file(Input, Output, 0, N).
 
