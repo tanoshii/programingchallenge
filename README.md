@@ -12,4 +12,4 @@
 ## Solution explanation
  1. Find the digit index in which the number stop being ordered. 
  3. Replace all digits after the index with 9 (the max ordered number possible).
- 4. Subtract 1 to last ordered digit. This can affect the previous digits; in that case we replace current digit with 9 and repeat this step with previous digit.
+ 4. Subtract 1 to last ordered digit. This can affect the previous digits; in that case we replace current digit with 9 and repeat this step with the previous one.
