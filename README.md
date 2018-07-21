@@ -2,11 +2,13 @@
 
 ## Python implementation
 **Usage:** ``` python challenge.py <input_file> <output_file> ```
+
 **Time Complexity:** O(N) where N is the number of digits per case.
 
 
 ## Prolog implementation
 **Usage:** ``` swipl -s challenge.pl -g 'main("<input_file>", "<output_file>")' -t halt ```
+
 **Time Complexity:** O(N) where N is the number of digits per case.
 
 ## Solution explanation
